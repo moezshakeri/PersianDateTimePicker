@@ -1,0 +1,13 @@
+ <script>
+        $(document).ready(function () {     
+
+            $("#CreateDate").datepicker({
+                dateFormat: 'yy/mm/dd',
+                maxDate: 0,
+                changeYear: true,
+                changeMonth: true,
+                yearRange: "-70:+0"
+            }).attr('readonly', 'readonly');
+
+        });
+    </script>
